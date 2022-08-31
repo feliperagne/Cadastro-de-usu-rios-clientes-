@@ -1,0 +1,11 @@
+senha: root
+ip : 127.0.0.1
+nome do banco: felipe
+
+CREATE TABLE cliente( id_cliente int PRIMARY KEY AUTO_INCREMENT, nome varchar(20) NOT NULL, id_cidade int NOT NULL)
+
+
+ALTER TABLE cliente
+ADD FOREIGN KEY( id_cidade) REFERENCES cidade(id_cidade)
+
+CREATE TABLE cidade ( id_cidade int PRIMARY KEY AUTO_INCREMENT, nome_cidade varchar(20) NOT NULL)
