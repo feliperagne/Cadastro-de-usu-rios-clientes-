@@ -1,2 +1,2 @@
-# Cadastro-de-usu-rios-clientes-
+# Cadastro de Clientes 
 Esse projeto foi feito em PHP com o intuito de treinar o CRUD do MySql!
