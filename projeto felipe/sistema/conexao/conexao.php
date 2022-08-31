@@ -8,7 +8,7 @@ class Conexao{
 
     try{
         $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
-    if($mysqli->connect_errono){
+    if($mysqli->connect_error){
         echo 'Falha na conexão com o banco de dados!';
     }else{
         $sql_query = $mysqli->query($sql_code);
